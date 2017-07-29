@@ -6,5 +6,5 @@ if (coin > 0.5) {
     console.log('Reszka');
 }
 
-var dice = Math.round(Math.random(1, 6) * 6);
+var dice = Math.ceil(Math.random() * 6);
 console.log('Wyrzuciłeś ' + dice);
